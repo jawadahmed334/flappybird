@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #70c5ce; /* Sky color */
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bird {
+    position: absolute;
+    background-color: #ffcc00; /* Bird color */
+    width: 40px;
+    height: 40px;
+    border-radius: 20px; /* Make it round */
+    top: 200px; /* Starting position */
+    left: 50px; /* Fixed position */
+}
+
+.pipe {
+    position: absolute;
+    background-color: #228b22; /* Pipe color */
+    width: 50px;
+    bottom: 0;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+}
